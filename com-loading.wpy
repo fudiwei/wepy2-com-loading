@@ -108,7 +108,6 @@
 
                 this.visible = true;
                 this.content = conf.content;
-                this.$apply();
             },
 
             /**
@@ -119,7 +118,6 @@
                 for (let prop in conf) {
                     this[prop] = conf[prop];
                 }
-                this.$apply();
             }
         }
     });
