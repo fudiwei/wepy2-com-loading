@@ -1,0 +1,18 @@
+{
+    "name": "@step/wepy2-com-loading",
+    "title": "wepy2-com-loading",
+    "description": "A component for displaying a blocked loading animation based on wepy.js 2.x.",
+    "version": "1.0.0",
+    "main": "com-loading.wpy",
+    "author": "Fu Diwei",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fudiwei/wepy2-com-loading.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "deploy": "npm publish --access=public"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
