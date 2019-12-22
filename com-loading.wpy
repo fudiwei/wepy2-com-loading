@@ -93,7 +93,7 @@
 
             /**
              * 显示加载对话框。
-             * @param {Object || String} options 配置项。
+             * @param {Object | String} options 配置项。
              * @param {String} options.content 提示文本。
              */
             show(options) {
