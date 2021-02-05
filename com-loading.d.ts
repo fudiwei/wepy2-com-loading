@@ -1,4 +1,6 @@
-export interface WepyComponentLoading {
+import { WepyComponent } from "@wepy/core/types/wepy";
+
+export interface WepyComponentLoading extends WepyComponent {
     /**
      * 显示加载对话框。
      * @param {String | Object} options
