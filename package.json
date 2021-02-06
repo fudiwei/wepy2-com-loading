@@ -1,5 +1,5 @@
 {
-    "name": "@step/wepy2-com-loading",
+    "name": "@skit/wepy2-com-loading",
     "title": "wepy2-com-loading",
     "description": "A component for displaying a blocked loading animation based on wepy.js 2.x.",
     "version": "1.0.0",
