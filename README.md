@@ -20,7 +20,7 @@ npm install @skit/wepy2-com-loading --save
 
 ``` html
 <template>
-    <ui-loading ref="loading" />
+    <ui-loading ref="ui-loading" />
 </template>
 <config>
 {
