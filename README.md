@@ -34,7 +34,7 @@ npm install @skit/wepy2-com-loading --save
 
     Wepy.page({
         onShow() {
-            this.$refs['loading'].show('loading ...');
+            this.$refs['ui-loading'].show('loading ...');
         }
     });
 </script>
@@ -56,7 +56,7 @@ npm install @skit/wepy2-com-loading --save
  * @param {Object} options 配置项。
  * @param {String} options.content 提示文本。
  */
-this.$refs['loading'].show({
+this.$refs['ui-loading'].show({
     content: '加载中'
 });
 
@@ -64,10 +64,10 @@ this.$refs['loading'].show({
  * 显示加载对话框。
  * @param {String} content 提示文本。
  */
-this.$refs['loading'].show('加载中');
+this.$refs['ui-loading'].show('加载中');
 
 /**
  * 隐藏加载对话框。
  */
-this.$refs['loading'].hide();
+this.$refs['ui-loading'].hide();
 ```
